@@ -1,3 +1,9 @@
+
+.displayed {
+  float:left;
+  width: 100px;
+}
+
 #container {
   width: 100%;
   background-color:#ebebeb;
@@ -38,6 +44,7 @@
 }
 h1{
   font-family: 'Raleway', sans-serif;
+  font-style: normal;
 }
 
 p{
@@ -70,10 +77,10 @@ h3 {
 
 #nav li{
   list-style-type: none;
-  float: left;
+  float: right;
   margin: 0;
   padding: 0;
-  width: 20%;
+  width: 14%;
   font-family: 'Raleway', sans-serif;
 }
 
