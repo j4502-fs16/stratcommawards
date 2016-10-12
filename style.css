@@ -4,6 +4,17 @@
   width: 100px;
 }
 
+#button{
+  color:black;
+  font-family:'Raleway', sans-serif;
+  padding-bottom: 25px;
+  text-decoration:none;
+}
+
+#button a:visited{
+  color:black;
+}
+
 #container {
   width: 100%;
   background-color:#ebebeb;
@@ -52,6 +63,7 @@ p{
   text-align: center;
   padding-left: 20%;
   padding-right: 20%;
+  border-left: 5px, black;
 }
 
 h2 {
