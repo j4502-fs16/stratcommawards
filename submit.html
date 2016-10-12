@@ -23,6 +23,8 @@
 
     <h1>Submit Your Work </h1>
     <p> Submit your work for the 2017 Strategic Communication Awards </p>
+
+  <form>
     <label for="name"> Your Name </label>
     <input id="name" name= "name" type= "text" placeholder= "John Doe">
     <label for "email"> Email </label>
@@ -30,13 +32,19 @@
     <label for="phone"> telephone </label>
     <input id="phone" name= "phone" type="tel" placeholder= "537-555-5555">
     <label for="category"> Select a Category</label>
-    <input id="category" name="category" type="text" list= "category">
+    <input id="category" name="category" type="text" list= "categories">
     <datalist id= "category">
       <option value= "AdZou">
       <option value= "Plan Book">
       <option value= "Video">
       <option value="Design">
     </datalist>
+    <label for="msg">Description of Work </label>
+        <textarea id="msg" name="user_message"></textarea>
+    <label for="msg">List Any Group Members and Their Contact Information </label>
+        <textarea id="msg" name="user_message"></textarea>
+    <input type="submit" value="Submit">
+  </form>
 
 </body>
 
