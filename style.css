@@ -4,15 +4,25 @@
   width: 100px;
 }
 
-#button{
+#button a:link{
   color:black;
   font-family:'Raleway', sans-serif;
   padding-bottom: 25px;
   text-decoration:none;
+  border-color:black;
+  border-width: 2px;
+  text-decoration: none;
+  width: 175px;
+  padding: 8px;
 }
 
 #button a:visited{
   color:black;
+  border-color:black;
+  border-width: 2px;
+  text-decoration: none;
+  width: 175px;
+  padding: 8px;
 }
 
 #container {
@@ -29,7 +39,7 @@
   text-align: center;
   color: white;
   padding-top: 135px;
-  padding-bottom: 25px;
+  padding-bottom: 75px;
 }
 
 #middle {
@@ -76,13 +86,14 @@ h3 {
   font-family: 'Raleway', sans-serif;
 }
 
-#link{
+#link a:link {
   font-family: 'Raleway', sans-serif;
   border-style:solid;
   border-color:#ffea00;
-  border-width: 1px;
+  border-width: 2px;
   text-decoration: none;
   width: 175px;
+  padding: 8px;
 }
 
 #link a:hover, a:active{
@@ -100,6 +111,7 @@ h3 {
   padding: 0;
   width: 14%;
   font-family: 'Raleway', sans-serif;
+
 }
 
 #nav a:link, a:visited{
