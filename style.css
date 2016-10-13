@@ -7,7 +7,7 @@
   margin-top: 20px;
 }
 
-.button1 a:link{
+.button1 a:link .button1 a:hover {
   background-color: #ebebeb;
   color:black;
   font-family:'Raleway', sans-serif;
@@ -121,7 +121,7 @@ h3 {
   color: #ffea00;
 }
 
-#link a:hover, a:active{
+#link a:hover, #link a:active{
   background-color: gray;
 }
 
@@ -139,7 +139,7 @@ h3 {
 
 }
 
-#nav a:link, a:visited{
+#nav a:link, #nav a:visited{
   display: block;
   color: #ffea00;
   background-color: #333333;
@@ -148,7 +148,7 @@ h3 {
   padding: 4px;
 }
 
-#nav a:hover, a:active {
+#nav a:hover, #nav a:active {
   text-decoration:underline;
   color: #ffea00;
 }
