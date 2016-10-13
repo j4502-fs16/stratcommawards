@@ -55,7 +55,7 @@
 
 #middle2 {
   background-color: #ffea00;
-  text-align: left;
+  text-align: center;
   color: black;
   padding-top: 50px;
   padding-bottom: 300px;
@@ -79,9 +79,6 @@
   padding-right: 10px;
   text-align: right;
   background-color: #333333;
-}
-img{
-  display:block;
 }
 
 h1{
