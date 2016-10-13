@@ -7,11 +7,11 @@
   margin-top: 20px;
 }
 
-#button a:link{
+.button1 a:link{
+  background-color: #ebebeb;
   color:black;
   font-family:'Raleway', sans-serif;
   padding-bottom: 25px;
-  text-decoration:none;
   border-color:black;
   border-width: 2px;
   text-decoration: none;
@@ -28,6 +28,8 @@
 }
 
 #button a:visited{
+#button2 a:visited{
+>>>>>>> origin/master
   color:black;
   border-color:black;
   border-width: 2px;
@@ -110,13 +112,15 @@ h3 {
 
 #link a:link {
   font-family: 'Raleway', sans-serif;
-  border-style:solid;
-  border-color:#ffea00;
+  border-style: solid;
+  border-color: black;
   border-width: 2px;
   text-decoration: none;
   width: 175px;
   padding: 8px;
   margin-bottom: 100px;
+  background-color: black;
+  color: #ffea00;
 }
 
 #link a:hover, a:active{
