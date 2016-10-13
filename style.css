@@ -56,7 +56,7 @@
 #middle2 {
   background-color: #ffea00;
   text-align: left;
-  display: block;
+  display: inline-block;
   color: black;
   padding-top: 50px;
   padding-bottom: 300px;
