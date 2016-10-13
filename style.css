@@ -113,21 +113,6 @@ h3 {
   background-color: gray;
 }
 
-#link2 a:link {
-  font-family: 'Raleway', sans-serif;
-  border-style:solid;
-  border-color:#333333;
-  border-width: 2px;
-  text-decoration: none;
-  width: 175px;
-  padding: 8px;
-  margin-bottom: 100px;
-}
-
-#link2 a:hover, a:active{
-  background-color: gray;
-}
-
 #nav{
   padding: 0;
 }
