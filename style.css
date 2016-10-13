@@ -7,7 +7,8 @@
   margin-top: 20px;
 }
 
-.button1 a:link .button1 a:hover {
+#button1 a:link, #button1 a:hover, #button1 {
+  display: block;
   background-color: #ebebeb;
   color:black;
   font-family:'Raleway', sans-serif;
@@ -17,11 +18,9 @@
   text-decoration: none;
   width: 175px;
   padding: 8px;
-}
-
-#button1 {
   margin-bottom: 20px;
 }
+
 
 #button2 {
   margin-bottom: 20px;
@@ -108,16 +107,14 @@ h3 {
   font-family: 'Raleway', sans-serif;
 }
 
-#link a:link {
+#link a:link, #link a:visited {
   font-family: 'Raleway', sans-serif;
   border-style: solid;
-  border-color: black;
   border-width: 2px;
   text-decoration: none;
   width: 175px;
   padding: 8px;
   margin-bottom: 100px;
-  background-color: black;
   color: #ffea00;
 }
 
