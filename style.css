@@ -19,6 +19,14 @@
   padding: 8px;
 }
 
+#button1 {
+  margin-bottom: 20px;
+}
+
+#button2 {
+  margin-bottom: 20px;
+}
+
 #button a:visited{
   color:black;
   border-color:black;
@@ -60,6 +68,7 @@
   text-align: left;
   padding-bottom: 30px;
 }
+
 #lower {
   background-color: #ebebeb;
   text-align: center;
@@ -69,10 +78,11 @@
 }
 
 #footer{
-  padding-top: 10px;
+  padding-top: 20px;
   padding-right: 10px;
   text-align: right;
   background-color: #333333;
+  margin-top: 0;
 }
 
 h1{
