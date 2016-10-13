@@ -109,6 +109,10 @@ h3 {
   margin-bottom: 100px;
 }
 
+#link a:hover, a:active{
+  background-color: gray;
+}
+
 #link2 a:link {
   font-family: 'Raleway', sans-serif;
   border-style:solid;
@@ -120,7 +124,7 @@ h3 {
   margin-bottom: 100px;
 }
 
-#link a:hover, a:active{
+#link2 a:hover, a:active{
   background-color: gray;
 }
 
