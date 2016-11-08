@@ -49,7 +49,7 @@
   text-align: center;
   color: white;
   padding-top: 135px;
-  padding-bottom: 75px;
+  padding-bottom: 30px;
 }
 
 #middle {
@@ -72,7 +72,7 @@
   background-color: #ebebeb;
   text-align: center;
   color: black;
-  padding-top: 90px;
+  padding-top: 30px;
   padding-bottom: 100px;
 }
 
@@ -82,6 +82,10 @@
   text-align: right;
   background-color: #333333;
   margin-top: 0;
+}
+
+#letter{
+  text-align: left;
 }
 
 h1{
