@@ -206,6 +206,20 @@ textarea {
 flex:1 100%;
 padding: 10px;
 }
+.gallery{
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.placeholder1{
+  background-color: #666;
+  width: 500px;
+  height: 300px;
+  padding: 1em;
+  margin: 1em;
+
+}
 
 @media (max-width:600px){
   .menu-trigger{
