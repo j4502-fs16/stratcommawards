@@ -1,7 +1,11 @@
 
+#menu {
+    display: flex;
+    wrap: nowrap;
+    justify-content: space-between;
+}
 
 .displayed {
-  float:left;
   width: 100px;
   padding-left: 20px;
   margin-top: 20px;
@@ -107,8 +111,8 @@ h3 {
   list-style:none;
   background:#333333;
   padding:0;
-  display:flex;
-  flex-flow: row;
+  display: flex;
+  flex-flow: column;
 }
 
 
@@ -117,7 +121,7 @@ h3 {
   float: right;
   margin: 0;
   padding: 0;
-  width: 14%;
+  /*width: 14%;*/
   font-family: 'Raleway', sans-serif;
   font-size: 1.2em;
 }
