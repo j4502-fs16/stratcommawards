@@ -99,6 +99,7 @@ h3 {
   color: #ffea00;
 }
 
+
 .button a:link, .button a:visited {
   font-family: 'Raleway', sans-serif;
   border-style: solid;
@@ -149,9 +150,7 @@ h3 {
 }
 
 form {
-    /* Just to center the form on the page */
     margin: 0 auto;
-    /* To see the outline of the form */
     padding: 2em;
     text-align: center;
 }
