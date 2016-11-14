@@ -6,34 +6,6 @@
   padding-left: 20px;
   margin-top: 20px;
 }
-/*
-#button1 a:link, #button1 a:hover, #button1 {
-  display: block;
-  background-color: #ebebeb;
-  color:black;
-  font-family:'Raleway', sans-serif;
-  padding-bottom: 25px;
-  border-color:black;
-  border-width: 2px;
-  text-decoration: none;
-  width: 175px;
-  padding: 8px;
-  margin-bottom: 20px;
-}
-
-
-#button2 {
-  margin-bottom: 20px;
-}
-
-#button a:visited{
-  color:black;
-  border-color:black;
-  border-width: 2px;
-  text-decoration: none;
-  width: 175px;
-  padding: 8px;
-}*/
 
 #container {
   width: 100%;
@@ -127,24 +99,32 @@ h3 {
 }
 
 .button a:hover, .button a:active{
-  background-color: gray;
+  background-color: #333333;
 }
 
-#nav{
+.navigation{
   padding: 0;
+  list-style:none;
+  background:#333333;
+  padding:0;
+  display:flex;
+  flex-flow: row;
 }
 
-#nav li{
+
+.navigation li{
   list-style-type: none;
   float: right;
   margin: 0;
   padding: 0;
   width: 14%;
   font-family: 'Raleway', sans-serif;
+  font-size: 1.2em;
 }
 
-#nav a:link, #nav a:visited{
-  display: block;
+.navigation a:link, .navigation a:visited{
+  display: flex;
+  flex-flow:row;
   color: #ffea00;
   background-color: #333333;
   text-align: center;
@@ -152,7 +132,7 @@ h3 {
   padding: 4px;
 }
 
-#nav a:hover, #nav a:active {
+.navigation a:hover, .navigation a:active {
   text-decoration:underline;
   color: #ffea00;
 }
@@ -201,4 +181,66 @@ textarea {
     /* To allow users to resize any textarea vertically
        It does not work on all browsers */
     resize: vertical;
+}
+.menu-trigger{
+  order:1;
+  display: none;
+  color: #ffea00;
+  background-color: #333333;
+  text-align: center;
+  text-decoration: none;
+  padding: 4px;
+}
+
+.header, .main, .aside, .footer{
+flex:1 100%;
+padding: 10px;
+}
+
+@media (max-width:600px){
+  .menu-trigger{
+    display: flex;
+  }
+  .header{
+    display:flex;
+    flex-flow:row;
+  }
+  .navigation ul{
+    flex-flow:row;
+    justify-content:center;
+    background:#00a085;
+  }
+  .navigation a:hover{
+    background:#00806A;
+    padding:5px 20px;
+  }
+}
+
+@media screen and (min-width:800px){
+  .menu-trigger{
+    display:none;
+  }
+  .navigation {
+      flex-flow: row;
+      justify-content: flex-start;
+  }
+  .navigation a:hover{
+    background:black;
+  }
+  .first{
+    margin-right:auto;
+  }
+}
+
+@media all and (min-width:800px){
+  .navigation {
+      flex-flow: row;
+      justify-content: flex-end;
+  }
+  .navigation a:hover{
+    background:black;
+  }
+  .first{
+    margin-right:auto;
+  }
 }
