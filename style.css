@@ -74,12 +74,12 @@
 }
 
 h1{
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway', Helvetica, Arial, sans-serif;
   font-style: normal;
 }
 
 p{
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway', Helvetica, Arial, sans-serif;
   text-align: center;
   padding-left: 10%;
   padding-right: 10%;
@@ -88,14 +88,14 @@ p{
 }
 
 h2 {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway', Helvetica, Arial, sans-serif;
   font-size: 3em;
   font-weight: lighter;
 }
 
 
 h3 {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway', Helvetica, Arial, sans-serif;
 }
 
 #button1 a:link, #button1 a:visited{
@@ -104,7 +104,7 @@ h3 {
 
 
 .button a:link, .button a:visited {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway', Helvetica, Arial, sans-serif;
   border-style: solid;
   border-width: 2px;
   text-decoration: none;
@@ -140,7 +140,7 @@ ul{
   float: right;
   margin: 0;
   padding-left: 10px;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway', Helvetica, Arial, sans-serif;
   font-size: 1.2em;
 }
 
@@ -170,7 +170,7 @@ label {
     display: inline-block;
     width: 90px;
     text-align: right;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', Helvetica, Arial, sans-serif;
     color: black;
 }
 
