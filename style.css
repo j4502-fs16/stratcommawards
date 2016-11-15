@@ -115,7 +115,11 @@ h3 {
 }
 
 .button a:hover, .button a:active{
-  background-color: #333333;
+  background-color: #ffea00;
+}
+
+#button1 a:hover, #button1 a:active{
+  background-color: gray;
 }
 
 .navigation{
