@@ -1,7 +1,6 @@
 
 #menu {
     display: flex;
-    wrap: nowrap;
     justify-content: space-between;
 }
 
@@ -293,9 +292,11 @@ padding: 10px;
 
 
 
-@media (max-width:600px){
+@media (max-width:650px){
   .menu-trigger{
     display: flex;
+    flex-flow:row;
+    text-size: 3em;
   }
   .header{
     display:flex;
@@ -312,7 +313,7 @@ padding: 10px;
   }
 }
 
-@media screen and (min-width:650px){
+@media (min-width:650px){
   .menu-trigger{
     display:none;
   }
@@ -328,7 +329,7 @@ padding: 10px;
     margin-right:auto;
   }
 
-@media screen and (min-width:800px){
+@media (min-width:800px){
   .menu-trigger{
     display:none;
   }
@@ -336,20 +337,6 @@ padding: 10px;
       display:flex;
       flex-flow: row;
       justify-content: flex-start;
-  }
-  .navigation a:hover{
-    background:black;
-  }
-  .first{
-    margin-right:auto;
-  }
-}
-
-@media all and (min-width:800px){
-  .navigation {
-      display:flex;
-      flex-flow: row;
-      justify-content: flex-end;
   }
   .navigation a:hover{
     background:black;
