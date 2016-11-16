@@ -32,18 +32,19 @@
   text-align: center;
   color: black;
   padding-top: 50px;
-<<<<<<< Updated upstream
+
   padding-bottom: 50px;
-=======
+
   padding-bottom: 200px;
+
+}
+.middle1{
   display: flex;
   flex-wrap: wrap;
   flex-flow: row;
   justify-content:space-between;
 
->>>>>>> Stashed changes
 }
-
 #lower{
   background-color:#ebebeb;
   margin:0 auto;
@@ -319,7 +320,7 @@ padding: 10px;
     background:#00806A;
     padding:5px 20px;
   }
-  #middle {
+  .middle1{
     display: flex;
     flex-flow: column;
   }
