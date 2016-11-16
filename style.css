@@ -32,7 +32,16 @@
   text-align: center;
   color: black;
   padding-top: 50px;
+<<<<<<< Updated upstream
   padding-bottom: 50px;
+=======
+  padding-bottom: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: row;
+  justify-content:space-between;
+
+>>>>>>> Stashed changes
 }
 
 #lower{
@@ -68,7 +77,7 @@
 }
 
 #letter{
-  text-align: left;
+  text-align: center;;
   color: #fff
 }
 
@@ -310,6 +319,10 @@ padding: 10px;
     background:#00806A;
     padding:5px 20px;
   }
+  #middle {
+    display: flex;
+    flex-flow: column;
+  }
 }
 
 @media (min-width:650px){
