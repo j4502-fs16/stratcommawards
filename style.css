@@ -139,7 +139,7 @@ img{
 .fotorama{
   margin: auto;
   width: 50%;
-  padding-bottom: 50px;
+  padding-bottom: 20px;
 }
 
 .button a:link, .button a:visited {
