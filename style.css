@@ -91,8 +91,8 @@
 .sponsorlogo{
   display: flex;
   flex-flow: row;
-  max-width: 200px;
-  max-height: 50px;
+  max-width: 250px;
+  max-height: 40px;
   margin:auto;
   justify-content:space-between;
 }
