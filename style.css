@@ -91,8 +91,9 @@
 .sponsorlogo{
   display: flex;
   flex-flow: row;
-  max-width: 150px;
+  max-width: 200px;
   max-height: 50px;
+  margin:auto;
   justify-content:space-between;
 }
 
@@ -153,6 +154,14 @@ img{
   color: black;
   margin: auto;
   width: 50%;
+}
+
+#button3 a:hover{
+  background-color:#ebebeb;
+}
+
+#button2 a:hover{
+  background-color: #f9e151;
 }
 
 .button a:hover, .button a:active{
