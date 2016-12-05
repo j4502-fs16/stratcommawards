@@ -17,7 +17,8 @@
       $( "#accordion" ).accordion();
     } );
     </script>
-
+    <!-- 1. Link to jQuery (1.8 or later), -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> <!-- 33 KB -->
 </head>
 
 <body>
@@ -49,7 +50,8 @@
 </div>
 <div>
   <p>The 2017 Strategic Communication Awards is now accepting entries! This is the fifth annual awards ceremony in the history of the Missouri School of Journalism that is exclusively for Strategic Communication students. The ceremony will also honor students and faculty who have won awards and other honors during the 2016-2017 academic year.</p>
-  <p> The awards ceremony will take place on Wednesday, April 26, 2017. </p>
+    <br> </br>
+  <p> The awards ceremony will take place on Wednesday, April 26, 2017. Time and location TBA. </p>
 
 </div>
 </div>
@@ -57,13 +59,33 @@
 <div>
   <h2> Gallery of Work </h2>
 </div>
+
+
+<!-- fotorama.css & fotorama.js. -->
+<link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet"> <!-- 3 KB -->
+<script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script> <!-- 16 KB -->
+
+<!-- 2. Add images to <div class="fotorama"></div>. -->
+<div class="fotorama">
+  <img src="chipotlead.jpg" alt= "placeholder" title="ad"/>
+  <img src="mcdonaldsad.jpg" alt= "placeholder" title="ad"/>
+  <img src="legoad.jpg" alt= "placeholder" title="ad">
+  <img src="nikead.jpg" alt= "placeholder" title="ad">
+</div>
+
+<!-- 3. Enjoy! -->
+
+
+
+
+
 <div class="button" id="button2">
   <a href="gallery.html">See All Work </a>
 </div>
 <br></br>
 <div>
   <div id="lower">
-    <div id="accordion">
+    <!-- <div id="accordion">
       <h3>Entries</h3>
       <div class="gallery">
         <div class="placeholder1"></div>
@@ -80,7 +102,7 @@
         <div class="placeholder1"></div>
         <div class="placeholder1"></div>
         <div class="placeholder1"></div>
-        <div class="placeholder1"></div>
+        <div class="placeholder1"></div> -->
       </div>
     </div>
   </div>
