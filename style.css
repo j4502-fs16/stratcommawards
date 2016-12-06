@@ -410,6 +410,7 @@ padding: 10px;
   .menu-trigger{
     display: flex;
     flex-flow:row;
+    font-size: 3em;
   }
   .header{
     display:flex;
