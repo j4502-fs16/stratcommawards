@@ -317,6 +317,7 @@ textarea {
 }
 
 .menu-trigger{
+  font-size: 3em;
   order:1;
   display: none;
   color: #f9e151;
