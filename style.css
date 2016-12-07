@@ -433,6 +433,10 @@ padding: 10px;
     display: flex;
     flex-flow: column;
   }
+
+  .inlinelink a:link a:visited{
+    color:#f9e151;
+  }
 }
 
 @media (min-width:650px){
@@ -466,8 +470,4 @@ padding: 10px;
   .first{
     margin-right:auto;
   }
-}
-
-.inlinelink {
-  color: #f9e151;
 }
