@@ -35,6 +35,11 @@
   padding-bottom: 20px;
 
 }
+
+#categories{
+  text-align:left;
+}
+
 .middle1{
   display: flex;
   flex-wrap: wrap;
