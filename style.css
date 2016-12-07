@@ -108,11 +108,11 @@ h1{
 p{
   font-family: 'Raleway', Helvetica, Arial, sans-serif;
   text-align: center;
-  padding-left: 20%;
-  padding-right: 20%;
+  padding-left: 25%;
+  padding-right: 25%;
   font-size: 1.1em;
   line-height: 1.3em;
-  width: 60%;
+  max-width: 50%;
 }
 
 h2 {
