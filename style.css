@@ -92,12 +92,7 @@
 }
 
 a:link{
-  display:block;
   color:#333333;
-}
-
-a:link a:active a:hover{
-  color:#f9e151;
 }
 
 
